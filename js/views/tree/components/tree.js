@@ -60,7 +60,7 @@ export default class Tree {
     prompt.classList.add("prompt");
     prompt.innerHTML = "~ ";
     const symSpan = document.createElement("span");
-    symSpan.innerHTML = "λ ";
+    symSpan.innerHTML = "❯";
     prompt.appendChild(symSpan);
     prompt.innerHTML += " tree";
     return prompt;
